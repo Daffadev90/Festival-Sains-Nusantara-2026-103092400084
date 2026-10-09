@@ -3,256 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Festival Sains Nusantara 2026</title>
+    <title>PC Parts Store</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Navigasi -->
-    <nav>
-      <a href="#beranda">Beranda</a> | <a href="#acara">Acara</a> | <a href="#jadwal">Jadwal</a> |
-      <a href="#pendaftaran">Pendaftaran</a>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">PC PARTS STORE</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
     </nav>
 
-    <hr />
-
-    <!--  Beranda -->
-    <section id="beranda">
-      <h1>Festival Sains Nusantara 2026</h1>
-      <h2>Tema: Explore Science, Inspire the Future</h2>
-      <h3>Penyelenggara: Nusantara Science Community</h3>
-
-      <p>Festival Sains Nusantara 2026 merupakan kegiatan yang menghadirkan seminar, workshop, dan kompetisi sains bagi pelajar, mahasiswa, dan masyarakat umum.</p>
-      <img src="Screenshot 2026-10-02 135424.png" alt="" />
-      <p>
-        <strong>Tanggal:</strong> 21 November 2026<br />
-        <strong>Waktu:</strong> 08.00–17.00 WIB<br />
-        <strong>Tempat:</strong> Gedung Sains Nusantara
-      </p>
-    </section>
-
-    <hr />
-
-    <!-- Bagian Acara -->
-    <section id="acara">
-      <h2>Kegiatan Kami</h2>
-
-      <div id="workshop">
-        <h3>Workshop Sains</h3>
-        <p>Peserta dapat mengikuti kegiatan eksperimen dan pembelajaran sains secara langsung melalui workshop yang disediakan.</p>
-      </div>
-
-      <div id="kompetisi">
-        <h3>Kompetisi Sains</h3>
-        <p>Kompetisi memberikan kesempatan kepada peserta untuk menampilkan ide dan proyek sains mereka.</p>
-      </div>
-
-      <div id="seminar">
-        <h3>Seminar Sains</h3>
-        <p>Seminar menghadirkan pembicara untuk berbagi pengetahuan tentang perkembangan sains dan teknologi terkini.</p>
+    <!-- Section Home -->
+    <section id="home" class="hero-section">
+      <div class="hero-banner">
+        <h1>Upgrade PC, Maksimalkan <span class="highlight">Performa.</span></h1>
       </div>
     </section>
 
-    <hr />
-
-    <!--  Jadwal -->
-    <section id="jadwal">
-      <h2>Jadwal Kegiatan</h2>
-
-      <table border="1" cellpadding="8" cellspacing="0">
-        <caption>
-          <strong>Jadwal Festival Sains Nusantara 2026</strong>
-        </caption>
-
-        <thead>
-          <tr>
-            <th>Hari</th>
-            <th>Waktu</th>
-            <th>Program</th>
-            <th>Kategori</th>
-            <th>Sesi Materi</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <!-- Jumat -->
-          <tr>
-            <th rowspan="5">Jumat</th>
-            <td>08.00–09.00</td>
-            <td>Opening Ceremony</td>
-            <td>Umum</td>
-            <td>Pembukaan</td>
-          </tr>
-          <tr>
-            <td>09.00–11.00</td>
-            <td>Eksperimen Fisika</td>
-            <td>Pelajar</td>
-            <td>Workshop</td>
-          </tr>
-          <tr>
-            <td>09.00–11.00</td>
-            <td>Dasar Data Science</td>
-            <td>Mahasiswa</td>
-            <td>Workshop</td>
-          </tr>
-          <tr>
-            <td>11.00–12.00</td>
-            <td>Teknologi dan Masa Depan</td>
-            <td>Umum</td>
-            <td>Seminar</td>
-          </tr>
-          <tr>
-            <td>13.00–15.00</td>
-            <td>Robotika Dasar</td>
-            <td>Pelajar</td>
-            <td>Workshop</td>
-          </tr>
-
-          <!-- Sabtu -->
-          <tr>
-            <th rowspan="4">Sabtu</th>
-            <td>08.00–10.00</td>
-            <td>Science Project</td>
-            <td>Pelajar</td>
-            <td>Kompetisi</td>
-          </tr>
-          <tr>
-            <td>08.00–10.00</td>
-            <td>Data Challenge</td>
-            <td>Mahasiswa</td>
-            <td>Kompetisi</td>
-          </tr>
-          <tr>
-            <td>10.00–12.00</td>
-            <td>Inovasi Energi</td>
-            <td>Umum</td>
-            <td>Seminar</td>
-          </tr>
-          <tr>
-            <td>13.00–15.00</td>
-            <td>Kecerdasan Buatan</td>
-            <td>Umum</td>
-            <td>Seminar</td>
-          </tr>
-
-          <!-- Minggu -->
-          <tr>
-            <th rowspan="2">Minggu</th>
-            <td>08.00–10.00</td>
-            <td>Robotik Nusantara</td>
-            <td>Pelajar</td>
-            <td>Kompetisi</td>
-          </tr>
-          <tr>
-            <td>10.00–12.00</td>
-            <td>Closing Ceremony</td>
-            <td>Umum</td>
-            <td>Penutupan</td>
-          </tr>
-        </tbody>
-
-        <tfoot>
-          <tr>
-            <td colspan="5" style="text-align: center; font-style: italic">Jadwal kegiatan dapat mengalami perubahan sesuai kondisi penyelenggaraan acara.</td>
-          </tr>
-        </tfoot>
-      </table>
+    <!-- Section Products / Collections -->
+    <section id="products" class="products-section">
+      <h2>Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=300&q=80" alt="SSD" />
+          <p>SSD</p>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1562976540-1502c2145186?auto=format&fit=crop&w=300&q=80" alt="RAM" />
+          <p>RAM</p>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=300&q=80" alt="Prosesor" />
+          <p>Prosesor</p>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=300&q=80" alt="Kartu Grafis" />
+          <p>Kartu Grafis</p>
+        </div>
+      </div>
     </section>
 
-    <hr />
-
-    <!-- Bagian Pendaftaran -->
-    <section id="pendaftaran">
-      <h2>Formulir Pendaftaran</h2>
-
-      <form action="#" method="post">
-        <p>
-          <label for="nama">Nama Lengkap *:</label><br />
-          <input type="text" id="nama" name="nama" required />
-        </p>
-
-        <p>
-          <label for="email">Email *:</label><br />
-          <input type="email" id="email" name="email" required />
-        </p>
-
-        <p>
-          <label for="telepon">Nomor Telepon *:</label><br />
-          <input type="tel" id="telepon" name="telepon" required />
-        </p>
-
-        <p>
-          <label for="institusi">Institusi / Asal Sekolah *:</label><br />
-          <input type="text" id="institusi" name="institusi" required />
-        </p>
-
-        <p>
-          <label>Jenis Kelamin *:</label><br />
-          <input type="radio" id="lk" name="jenis_kelamin" value="Laki-laki" required />
-          <label for="lk">Laki-laki</label><br />
-          <input type="radio" id="pr" name="jenis_kelamin" value="Perempuan" />
-          <label for="pr">Perempuan</label>
-        </p>
-
-        <p>
-          <label for="tgl_lahir">Tanggal Lahir *:</label><br />
-          <input type="date" id="tgl_lahir" name="tgl_lahir" required />
-        </p>
-
-        <p>
-          <label>Kategori Peserta *:</label><br />
-          <input type="radio" id="pelajar" name="kategori" value="Pelajar" required />
-          <label for="pelajar">Pelajar</label><br />
-          <input type="radio" id="mahasiswa" name="kategori" value="Mahasiswa" />
-          <label for="mahasiswa">Mahasiswa</label><br />
-          <input type="radio" id="umum" name="kategori" value="Umum" />
-          <label for="umum">Umum</label>
-        </p>
-
-        <p>
-          <label>Pilihan Kegiatan (bisa pilih lebih dari satu):</label><br />
-          <input type="checkbox" id="k1" name="kegiatan" value="Workshop Eksperimen Fisika" />
-          <label for="k1">Workshop Eksperimen Fisika</label><br />
-
-          <input type="checkbox" id="k2" name="kegiatan" value="Workshop Dasar Data Science" />
-          <label for="k2">Workshop Dasar Data Science</label><br />
-
-          <input type="checkbox" id="k3" name="kegiatan" value="Seminar Teknologi dan Masa Depan" />
-          <label for="k3">Seminar Teknologi dan Masa Depan</label><br />
-
-          <input type="checkbox" id="k4" name="kegiatan" value="Workshop Robotika Dasar" />
-          <label for="k4">Workshop Robotika Dasar</label><br />
-
-          <input type="checkbox" id="k5" name="kegiatan" value="Kompetisi Science Project" />
-          <label for="k5">Kompetisi Science Project</label><br />
-
-          <input type="checkbox" id="k6" name="kegiatan" value="Kompetisi Data Challenge" />
-          <label for="k6">Kompetisi Data Challenge</label><br />
-
-          <input type="checkbox" id="k7" name="kegiatan" value="Seminar Inovasi Energi" />
-          <label for="k7">Seminar Inovasi Energi</label><br />
-
-          <input type="checkbox" id="k8" name="kegiatan" value="Seminar Kecerdasan Buatan" />
-          <label for="k8">Seminar Kecerdasan Buatan</label><br />
-
-          <input type="checkbox" id="k9" name="kegiatan" value="Kompetisi Robotik Nusantara" />
-          <label for="k9">Kompetisi Robotik Nusantara</label>
-        </p>
-
-        <p>
-          <label for="kebutuhan">Kebutuhan Khusus / Informasi Tambahan:</label><br />
-          <textarea id="kebutuhan" name="kebutuhan" rows="4" cols="50" placeholder="Tulis informasi tambahan jika ada..."></textarea>
-        </p>
-
-        <p>
-          <button type="submit">Daftar Sekarang</button>
-        </p>
-      </form>
+    <!-- Section About -->
+    <section id="about" class="about-section">
+      <h2>About</h2>
+      <p>Pilihan komponen untuk kebutuhan upgrade PC kamu.</p>
     </section>
-
-    <hr />
-
-    <!-- Footer -->
-    <footer>
-      <p style="text-align: center">©2026 Nusantara Science Community</p>
-    </footer>
   </body>
 </html>
